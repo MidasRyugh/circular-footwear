@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="An interactive critical case study of material circulation in Nike ISPA Link Axis and adidas Made To Be Remade footwear." />
+    <title>From Recyclable Shoes to Real Circularity</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="stage" id="presentation" aria-labelledby="page-title">
+      <div class="stage-rail" aria-hidden="true"><span>DDES9014</span><span>01—07</span></div>
+
+      <header class="hero reveal reveal-1">
+        <div class="hero-copy">
+          <p class="eyebrow">Critical case study / Circular footwear</p>
+          <h1 id="page-title">From Recyclable Shoes<br />to <em>Real Circularity</em></h1>
+          <p class="subtitle">Comparing Nike ISPA Link Axis and adidas Made To Be Remade</p>
+        </div>
+        <aside class="thesis" aria-label="Case study thesis">
+          <span class="micro-label">Thesis / 01</span>
+          <p>A recyclable shoe is not necessarily circular. Circularity depends on whether materials actually return to productive use.</p>
+        </aside>
+      </header>
+
+      <section class="linear-default reveal reveal-2" aria-labelledby="linear-title">
+        <h2 id="linear-title">The linear default</h2>
+        <ol class="linear-steps" aria-label="Linear footwear production system">
+          <li>Virgin materials</li>
+          <li>Manufacturing</li>
+          <li>Use</li>
+          <li>Disposal</li>
+          <li class="leakage">Landfill / energy recovery</li>
+        </ol>
+        <p class="return-question">Can this material return?</p>
+      </section>
+
+      <section class="circulation reveal reveal-3" aria-labelledby="circulation-title">
+        <div class="circulation-heading">
+          <div>
+            <span class="micro-label">System measure / 02</span>
+            <h2 id="circulation-title">Material Circulation Effectiveness</h2>
+          </div>
+          <p>How effectively does a design decision help footwear materials return to productive use? <sup>[4]</sup></p>
+        </div>
+
+        <div class="return-loop" aria-hidden="true">
+          <span>Material returns to productive use</span>
+        </div>
+
+        <ol class="system-nodes" aria-label="Material circulation chain">
+          <li class="system-node" tabindex="0" data-system-node="product">
+            <span class="node-index">01</span>
+            <strong>Product sold</strong>
+            <small>enters use</small>
+          </li>
+          <li class="system-node system-node--active" tabindex="0" data-system-node="capture" data-focus-key="capture">
+            <span class="node-index">02</span>
+            <strong>Capture</strong>
+            <small>returns</small>
+            <i class="node-case-marker">Case B</i>
+          </li>
+          <li class="system-node system-node--active" tabindex="0" data-system-node="separation" data-focus-key="separation">
+            <span class="node-index">03</span>
+            <strong>Separation</strong>
+            <small>comes apart</small>
+            <i class="node-case-marker">Case A</i>
+          </li>
+          <li class="system-node" tabindex="0" data-system-node="recovery">
+            <span class="node-index">04</span>
+            <strong>Recovery</strong>
+            <small>usable output</small>
+          </li>
+          <li class="system-node" tabindex="0" data-system-node="reintegration">
+            <span class="node-index">05</span>
+            <strong>Reintegration</strong>
+            <small>replaces input</small>
+          </li>
+          <li class="system-node" tabindex="0" data-system-node="production">
+            <span class="node-index">06</span>
+            <strong>New production</strong>
+            <small>begins a new cycle</small>
+          </li>
+        </ol>
+      </section>
+
+      <section class="analysis-grid reveal reveal-4" aria-label="Case interventions and comparative finding">
+        <article class="case-card case-card--adidas" tabindex="0" data-case="adidas" data-focus-key="capture" aria-labelledby="adidas-title">
+          <div class="case-tab"><span>B</span> Capture intervention</div>
+          <figure>
+            <img src="assets/adidas-made-to-be-remade.jpg" alt="White adidas UltraBOOST DNA LOOP Made To Be Remade shoe displayed on a circular red platform." />
+            <figcaption>Image: adidas News, 2020</figcaption>
+          </figure>
+          <div class="case-content">
+            <p class="case-kicker">Brand take-back pathway</p>
+            <h2 id="adidas-title">adidas Made To Be Remade</h2>
+            <ul class="case-points">
+              <li>Consumer return pathway</li>
+              <li>QR-supported take-back</li>
+              <li>Mono-material approach <sup>[3][7]</sup></li>
+            </ul>
+            <div class="case-verdict">
+              <p><span>Strength</span><strong>Improves product capture</strong></p>
+              <p class="dependency"><span>Dependency</span><strong>Return ≠ usable recovery</strong></p>
+            </div>
+          </div>
+          <div class="dependency-line dependency-line--forward" aria-hidden="true"><span>depends on downstream recovery</span></div>
+        </article>
+
+        <article class="case-card case-card--nike" tabindex="0" data-case="nike" data-focus-key="separation" aria-labelledby="nike-title">
+          <div class="case-tab"><span>A</span> Separation intervention</div>
+          <figure>
+            <img src="assets/nike-ispa-link-axis.jpg" alt="Exploded black-and-white structure drawing of the modular Nike ISPA Link Axis shoe." />
+            <figcaption>Image: Nike Newsroom, 2023</figcaption>
+          </figure>
+          <div class="case-content">
+            <p class="case-kicker">Design for disassembly</p>
+            <h2 id="nike-title">Nike ISPA Link Axis</h2>
+            <ul class="case-points">
+              <li>Interlocking modules</li>
+              <li>Reduced adhesive dependency</li>
+              <li>Easier disassembly <sup>[1][2]</sup></li>
+            </ul>
+            <div class="case-verdict">
+              <p><span>Strength</span><strong>Improves technical separation</strong></p>
+              <p class="dependency"><span>Dependency</span><strong>Useful only if captured</strong></p>
+            </div>
+          </div>
+          <div class="dependency-line dependency-line--back" aria-hidden="true"><span>depends on capture</span></div>
+        </article>
+
+        <aside class="comparative-finding" aria-labelledby="finding-title">
+          <span class="micro-label">Key comparative finding / 03</span>
+          <h2 id="finding-title">A design decision solves<br />only one part of the loop.</h2>
+          <div class="finding-equations">
+            <p><strong>Easy to return</strong><b>≠</b><strong>Easy to recover</strong></p>
+            <p><strong>Easy to disassemble</strong><b>≠</b><strong>Actually returned</strong></p>
+            <p class="finding-equation--material"><span>Collected material</span><b>≠</b><span>Recovered material</span><b>≠</b><span>Virgin material avoided <sup>[5]</sup></span></p>
+          </div>
+          <p class="finding-conclusion">Neither strategy alone guarantees circularity.</p>
+        </aside>
+      </section>
+
+      <section class="system-gap reveal reveal-5" aria-label="System gap">
+        <span>System gap / 04</span>
+        <strong>Product design and recovery infrastructure remain disconnected.</strong>
+        <i aria-hidden="true">→</i>
+      </section>
+
+      <section class="intervention reveal reveal-6" aria-labelledby="intervention-title">
+        <div class="intervention-intro">
+          <span class="micro-label">Strategic intervention / 05</span>
+          <h2 id="intervention-title">Shared Footwear<br />Recovery Network</h2>
+          <p>A shared system connects capture, separation and downstream recovery across brands.</p>
+        </div>
+
+        <ol class="network-flow" aria-label="Shared footwear recovery network process">
+          <li><span>01</span>Shared collection<br />points</li>
+          <li><span>02</span>Digital material<br />passport</li>
+          <li><span>03</span>Regional<br />sorting</li>
+          <li><span>04</span>Reuse / components /<br />material recycling</li>
+          <li><span>05</span>Production</li>
+        </ol>
+
+        <div class="implications">
+          <div><span>Australia</span><p>Connect retailers with product stewardship. <sup>[6]</sup></p></div>
+          <div><span>Global</span><p>Shared identifiers improve interoperability.</p></div>
+        </div>
+
+        <div class="tradeoffs">
+          <span>Trade-offs</span>
+          <ul>
+            <li>Transport impacts</li>
+            <li>Uneven rural access</li>
+            <li>Data-sharing resistance</li>
+            <li>Incentive rebound effects</li>
+          </ul>
+        </div>
+      </section>
+
+      <footer class="source-footer">
+        <p><strong>Image sources</strong> Nike, Inc. Newsroom (2023) · adidas News (2020)</p>
+        <button type="button" id="references-trigger" aria-haspopup="dialog" aria-controls="references-dialog">
+          Sources &amp; references <span aria-hidden="true">↗</span>
+        </button>
+      </footer>
+
+      <dialog id="references-dialog" aria-labelledby="references-title">
+        <div class="references-header">
+          <div>
+            <span class="micro-label">Source register / 06</span>
+            <h2 id="references-title">Sources &amp; references</h2>
+          </div>
+          <button type="button" id="references-close" aria-label="Close sources and references">Close ×</button>
+        </div>
+        <div class="references-body">
+          <ol>
+            <li class="reference-item"><span>01</span>Nike, Inc. (2023). <cite>Nike Debuts the ISPA Link Axis, an Exploration Into Circular Design.</cite></li>
+            <li class="reference-item"><span>02</span>Nike, Inc. (2022). <cite>Why Nike Is Making Shoes You Can Take Apart.</cite></li>
+            <li class="reference-item"><span>03</span>adidas. (2020). <cite>UltraBOOST DNA Loop Launches to Public as “Made To Be Remade”.</cite></li>
+            <li class="reference-item"><span>04</span>Geissdoerfer et al. (2017). <cite>The circular economy — A new sustainability paradigm?</cite> Journal of Cleaner Production, 143, 757–768.</li>
+            <li class="reference-item"><span>05</span>Russell &amp; Nasr (2023). <cite>Value-retained vs. impacts avoided.</cite> Journal of Remanufacturing, 13, 25–51.</li>
+            <li class="reference-item"><span>06</span>Australian Government DCCEEW (2025). <cite>Product stewardship in Australia.</cite></li>
+            <li class="reference-item"><span>07</span>adidas. (2022). <cite>Made To Be Remade Product Innovations at Design London.</cite></li>
+          </ol>
+          <div class="image-links">
+            <h3>Official image pages</h3>
+            <a href="https://about.nike.com/en/newsroom/releases/nike-debuts-the-ispa-link-axis-an-exploration-into-circular-design">Nike Newsroom — ISPA Link Axis</a>
+            <a href="https://news.adidas.com/innovations/ultraboost-dna-loop-launches-to-public-as--made-to-be-remade--running-shoes-come-to-creators-club-we/s/38b4b53e-2343-4d9a-9c59-20feda458e2b">adidas News — UltraBOOST DNA LOOP</a>
+          </div>
+        </div>
+      </dialog>
+    </main>
+  </body>
+</html>
